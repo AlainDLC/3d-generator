@@ -1,7 +1,13 @@
+import { Canvas } from "@react-three/fiber";
 import "./App.css";
+import Hero from "./components/Hero";
 
 function App() {
-  return <h1 className="bg-green-300">hej</h1>;
+  return (
+    <div>
+      <Hero />
+    </div>
+  );
 }
 
 export default App;
